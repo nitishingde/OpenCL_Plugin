@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.nitishingde.openclplugin.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.nitishingde.openclplugin.MyBundle
 
 class MyApplicationService {
 
