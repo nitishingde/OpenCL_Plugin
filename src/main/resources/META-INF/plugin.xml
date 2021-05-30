@@ -10,6 +10,12 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.nitishingde.openclplugin.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.nitishingde.openclplugin.services.MyProjectService"/>
+        <fileType name="OpenCL File"
+                  implementationClass="org.intellij.sdk.language.OpenclFileType"
+                  fieldName="instance"
+                  language="OpenCL"
+                  extensions="cl"
+        />
     </extensions>
 
     <applicationListeners>
